@@ -27,11 +27,11 @@ if ($_SESSION['user']) {
         <input type="email" name="email" placeholder="Введите адрес своей почты">
         <label>Изображение профиля</label>
         <input type="file" name="avatar">
-        <label>Пароль</label>
+        <label>Пароль (не менее 3 символов)</label>
         <input type="password" name="password" placeholder="Введите пароль">
         <label>Подтверждение пароля</label>
         <input type="password" name="password_confirm" placeholder="Подтвердите пароль">
-        <button type="submit">Войти</button>
+        <button type="submit">Зарегистрироваться</button>
         <p>
             У вас уже есть аккаунт? - <a href="/auth.php">авторизируйтесь</a>!
         </p>

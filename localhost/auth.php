@@ -11,7 +11,7 @@ if ($_SESSION['user']) {
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <title>Авторизация и регистрация</title>
     <link rel="stylesheet" href="css/main.css">
 </head>

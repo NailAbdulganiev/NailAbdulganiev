@@ -20,14 +20,6 @@ if (mysqli_num_rows($check_user) > 0) {
 
     header('Location: ../profile.php');
 } else {
-    $_SESSION['message'] = 'Не верный логин или пароль';
+    $_SESSION['message'] = 'Неверный логин или пароль';
     header('Location: ../auth.php');
 }
-?>
-
-<pre>
-    <?php
-    print_r($check_user);
-    print_r($user);
-    ?>
-</pre>
