@@ -31,19 +31,17 @@
         <div class="main">
             <h1 style="text-align: center;">Мои проекты</h1>
             <div class="myProjects">
-                <p>Здесь будут мои проекты, над которыми я работаю. Сейчас я занимаюсь разработкой этого сайта. Ниже я
-                    прикреплю
-                    ссылку на свой GitHub.</p>
-                <img src="/css/img/ilovecode.jpg" style="width: 50px;" alt="">
-                <a href="https://github.com/NailAbdulganiev" target="_blank" style="margin: 20px;">GitHub Profile</a>
+                <p>Здесь будут мои проекты, над которыми я работаю. Сейчас я занимаюсь разработкой этого сайта. Ниже я прикреплю ссылку на свой GitHub →
+                    <a href="https://github.com/NailAbdulganiev" target="_blank" style=" margin: 0 0px; text-decoration: underline; color: #000">GitHub Profile</a>
+                    <img class="ytlogo" src="/css/img/github.png" alt="Logo" />
+                </p>
             </div>
         </div>
         <footer class="footer">
             <h2>Я в социальных сетях</h2>
             <a target="_blank" href="https://vk.com/nailabdulganiev"><img src="/css/img/vk.png" style="width:32px;" alt="VK"></a>
-            <a target="_blank" href="https://www.youtube.com/channel/UC2yF84Y6GakHWN3_eC-6tRQ"><img src="/css/img/yt logo.png" style="width:32px;" alt="YouTube"></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UC2yF84Y6GakHWN3_eC-6tRQ"><img src="/css/img/yt logo.png" style="width:32px; margin: 0 15px 0 15px;" alt="YouTube"></a>
             <a target="_blank" href="https://www.instagram.com/nailabdul73/"><img src="/css/img/instagram.png" style="width:32px;" alt="Instagram"></a>
-
         </footer>
     </div>
     </div>

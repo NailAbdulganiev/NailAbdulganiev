@@ -24,6 +24,6 @@ if ($password === $password_confirm && strlen($password) > 2) {
     $_SESSION['message'] = 'Регистрация прошла успешно!';
     header('Location: ../index.php');
 } else {
-    $_SESSION['message'] = 'Пароли не совпадают либо длина пароля меньше 3';
+    $_SESSION['message'] = 'Пароли не совпадают, либо длина пароля меньше 3 символов!';
     header('Location: ../register.php');
 }

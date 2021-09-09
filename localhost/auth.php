@@ -11,6 +11,7 @@ if ($_SESSION['user']) {
 <html lang="en">
 
 <head>
+    <link rel="shortcut icon" href="css/img/flag-round-250.png">
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <title>Авторизация и регистрация</title>
     <link rel="stylesheet" href="css/main.css">
@@ -29,14 +30,12 @@ if ($_SESSION['user']) {
         <p>
             У вас нет аккаунта? - <a href="/register.php">зарегистрируйтесь!</a>
         </p>
-        <?php
-        if ($_SESSION['message']) {
-            echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
-        }
-        unset($_SESSION['message']);
-        ?>
-    </form>
 
+        <p class="msg">Неверный логин или пароль!</p>
+
+    </form>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

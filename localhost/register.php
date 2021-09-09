@@ -10,6 +10,7 @@ if ($_SESSION['user']) {
 
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="css/img/flag-round-250.png">
     <title>Авторизация и регистрация</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -42,7 +43,8 @@ if ($_SESSION['user']) {
         unset($_SESSION['message']);
         ?>
     </form>
-
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
