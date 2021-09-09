@@ -30,9 +30,12 @@ if ($_SESSION['user']) {
         <p>
             У вас нет аккаунта? - <a href="/register.php">зарегистрируйтесь!</a>
         </p>
-
-        <p class="msg">Неверный логин или пароль!</p>
-
+        <?php
+        if ($_SESSION['message']) {
+            echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
+        }
+        unset($_SESSION['message']);
+        ?>
     </form>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
     <script src="/js/script.js"></script>
